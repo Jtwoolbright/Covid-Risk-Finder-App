@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Covid Risk Finder</string>
+    <string name="submit">Submit</string>
+    <string name="find_risk">Find Your Risk</string>
+    <string name="covid_symptoms">Covid Symptoms</string>
+    <string name="image_description">Risk Speedometer</string>
+    <string name="age_hint">Age</string>
+    <string name="vaccination_locations">Vaccination Locations</string>
+    <string name="emergency_services">Emergency Services</string>
+    <string name="low_risk_result">You or this patient are unlikely to suffer more than mild symptoms upon contraction</string>
+    <string name="medium_risk_result">You or this patient are likely to suffer moderate symptoms upon contraction</string>
+    <string name="high_risk_result">You or this patient are likely to suffer severe symptoms upon contraction</string>
+    <string name="four_o_four_error">404 Error: Please try again</string>
+    <string name="arrow_right">arrow right</string>
+    <string name="calulating">Calculating...</string>
+</resources>

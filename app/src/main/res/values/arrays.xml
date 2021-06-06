@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string-array name="YN">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+    <string-array name="Age">
+        <item>18 or Younger</item>
+        <item>19 to 29</item>
+        <item>30 to 39</item>
+        <item>40 to 49</item>
+        <item>50 to 64</item>
+        <item>65 or Older</item>
+    </string-array>
+</resources>
