@@ -1,5 +1,7 @@
 # Covid Risk Finder
 
+Release 1.0 currently under review for release on Google Play Store.
+
 ## Features
 
 With this app, you can
