@@ -7,11 +7,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import io.jtstudios.covidriskfinder.api.ResultApi
 import io.jtstudios.covidriskfinder.model.PatientData
+import okhttp3.OkHttpClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
 
 class ResultActivity : AppCompatActivity() {
 
@@ -31,9 +33,12 @@ class ResultActivity : AppCompatActivity() {
         resultText = findViewById(R.id.resultText)
         resultText.text = getString(R.string.calulating)
 
+        val httpClient = OkHttpClient.Builder()
+
         val retrofitBuilder = Retrofit.Builder()
             .baseUrl("https://covid-risk-app-api.herokuapp.com")
             .addConverterFactory(GsonConverterFactory.create())
+            .client(httpClient.build())
             .build()
             .create(ResultApi::class.java)
 
