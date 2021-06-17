@@ -24,7 +24,7 @@ With this app, you can
 5. Open Android Studio and selected cloned repo
 6. Choose and emulator and run
 
-## What I Learned
+## What We Learned
 
 - Spinners
 - Working with APIs
