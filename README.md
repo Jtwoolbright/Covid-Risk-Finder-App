@@ -21,8 +21,8 @@ With this app, you can
 2. Download Java jdk/jre 1.8 or above
 3. Ensure proper configuration with Java and Android Studio
 4. Clone git repository to local folder
-5. Open Android Studio and selected cloned repo
-6. Choose and emulator and run
+5. Open Android Studio and select cloned repo
+6. Choose an emulator and run
 
 ## What We Learned
 
